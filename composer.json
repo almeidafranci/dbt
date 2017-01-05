@@ -1,0 +1,20 @@
+{
+    "name": "falmeida/dbt",
+    "description": "Gerador de remessa e leitor de retorno no layout DBT627",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Francinaldo Almeida",
+            "email": "francinaldo@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dbt\\": "src/Dbt"
+        }
+    }
+}
